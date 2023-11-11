@@ -81,9 +81,9 @@ header div.top-header p {
   margin-top: 10px;
 }
 
-/*Barra de busqueda*/
+/* Search Bar */
 
-.barra-busqueda {
+.search-bar {
   display: flex;
   width: 70%;
   margin: 20px;
@@ -102,7 +102,7 @@ button {
   cursor: pointer;
 }
 
-/* fin barra de busqueda */
+/* End search bar */
 
 .products {
   display: flex;
@@ -191,7 +191,7 @@ main section article i {
   align-self: self-end;
 }
 
-.icono {
+.icon {
   display: flex;
   position: relative;
   justify-content: flex-end;
@@ -206,7 +206,7 @@ main section article i {
   gap: 10px;
 }
 
-/** EFECTOS */
+/* Effects */
 
 article .description-product {
   display: none;
@@ -221,12 +221,12 @@ article:hover {
   transition: box-shadow 500ms;
 }
 
-article:hover .icono i {
+article:hover .icon i {
   transform: rotate(-90deg);
   transition: transform 500ms;
 }
 
-/* FIN EFECTOS*/
+/* End */
 
 main section h3 {
   margin: 20px 0px;
@@ -305,7 +305,7 @@ button[type="reset"]:hover {
   background-color: rgb(202, 5, 5);
 }
 
-.categorias {
+.categories {
   display: flex;
   flex-direction: column;
 }
@@ -317,7 +317,7 @@ input[type="checkbox"] {
 
 /* FOOTER */
 
-.pie-pagina {
+.end-page {
   position: relative;
   bottom: 0;
   width: 100%;
@@ -326,7 +326,7 @@ input[type="checkbox"] {
   padding-top: 20px;
 }
 
-.grupo-1 {
+.services {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -351,13 +351,13 @@ input[type="checkbox"] {
   margin-bottom: 10px;
 }
 
-.grupo-2 {
+.copyright {
   background-color: #fff;
   padding: 15px 0;
   text-align: center;
 }
 
-.grupo-2 small {
+.copyright small {
   font-size: 14px;
 }
 
@@ -395,7 +395,7 @@ input[type="checkbox"] {
     flex-direction: column;
   }
 
-  .grupo-1 {
+  .services {
     flex-direction: column;
     align-items: center;
   }
